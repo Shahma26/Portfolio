@@ -6,14 +6,17 @@
 body{
     background-color: black;
     color: antiquewhite;
+    
 }
 
 h1{
     font-family: "Black Ops One", system-ui;
+    
 }
 
 p{
-    font-family: "Playwrite GB J", cursive;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size:x-large;
 }
 
 i{
@@ -44,6 +47,7 @@ header ul{
 header ul li{
     list-style: none;
     margin: 10px;
+    font-size:x-large;
 }
 
 header ul li a{
@@ -91,6 +95,9 @@ h1,h3{
     text-align: center;
 }
 
+h3{
+  font-size: xx-large;
+}
 
 
 .row1{
@@ -103,8 +110,8 @@ h1,h3{
 }
 
 .col1{
-    width: 300px;
-    height: 150px;
+    width: 500px;
+    height: 200px;
     background-color: rgba(245, 245, 220, 0.384);
     display: flex;
     justify-content: center;
@@ -113,20 +120,28 @@ h1,h3{
 
 }
 
+#project{
+  margin-top: 50px;
+}
+
 .col2{
     border: 2px solid white;
     margin: 20px;
 }
 
+.col2 h2{
+  margin-top: 5px;
+}
+
 .col2 p{
-    font-size: 10px;
+    font-size: 15px;
 }
 
 
 .flip-box {
   background-color: transparent;
-  width: 300px;
-  height: 200px;
+  width: 500px;
+  height: 250px;
   border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
@@ -175,6 +190,10 @@ h1,h3{
     justify-content: center;
     align-items: center;
     margin: 50px;
+    margin-left: 100px;
+}
+#service{
+  margin-top: 50px;
 }
 
 
@@ -293,7 +312,7 @@ h1,h3{
     margin: 0;
   }
   header{
-    width: 600px;
+    width: 720px;
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -311,16 +330,16 @@ h1,h3{
     margin-left: 80px;
   }
   #banner{
-    margin-left: 50px;
+    margin-left: 100px;
   }
   #banner img{
     width: 300px;
   }
   #about{
-    margin-left: 50px;
+    margin-left: 100px;
   }
   #about h1{
-    margin-top: 20px;
+    margin-top: 70px;
     margin-bottom: 10px;
     margin-left: 100px;
   }
@@ -335,17 +354,15 @@ h1,h3{
     width: 300px;
     margin-top: 2px;
   }
-  #tech h1{
-    margin-top:350px;
-  }
+ 
   .row1{
     display: flex;
     flex-direction: column;
     height: auto;
   }
   #tech{
-    margin-bottom: 700px;
-    margin-left: 90px;
+    margin-top: 50px;
+    margin-left: 150px;
   }
   .col1{
     width: 300px;
@@ -354,15 +371,20 @@ h1,h3{
     margin: 350px;
   }
   #project{
-    margin-bottom: 1000px;
-    margin-left: 90px;
+    margin-top: 1000px;
+    margin-left: 100px;
   }
+
+#project h1{
+  margin-left: 100px;
+}
   #service{
-    margin-bottom: 1500px;
-    margin-left: 50px;
+    margin-top: 1400px;
+    margin-left: 100px;
   }
   #service h1{
     margin-left: 80px;
+    margin-bottom: 40px;
   }
   #service img{
     margin-left: 60px;
@@ -370,7 +392,8 @@ h1,h3{
     margin-top: 20px;
   }
   #contact{
-    margin-left: 60px;
+    margin-left: 100px;
+    margin-top: 1900px;
   }
   #contact h1{
     margin-left: 80px;
