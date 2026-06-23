@@ -67,7 +67,8 @@ section{
 }
 
 #banner img{
-    width: 500px;
+    width: 600px;
+    height: 600px;
 }
 
 .row{
@@ -78,7 +79,8 @@ section{
 
 
 #about img{
-    width: 500px;
+    width: 400px;
+    height: 300px;
 }
 
 
@@ -133,6 +135,7 @@ h3{
   margin-top: 5px;
 }
 
+
 .col2 p{
     font-size: 15px;
 }
@@ -185,13 +188,15 @@ h3{
 
 .col img{
     border-radius:500%;
-    width: 200px;
+    width: 250px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 50px;
     margin-left: 100px;
 }
+
 #service{
   margin-top: 50px;
 }
@@ -334,6 +339,7 @@ h3{
   }
   #banner img{
     width: 300px;
+    height: 300px;
   }
   #about{
     margin-left: 100px;
@@ -393,7 +399,7 @@ h3{
   }
   #contact{
     margin-left: 100px;
-    margin-top: 1900px;
+    margin-top: 2200px;
   }
   #contact h1{
     margin-left: 80px;
