@@ -71,6 +71,7 @@ section{
     height: 600px;
 }
 
+
 .row{
     display: flex;
     justify-content: space-evenly;
@@ -100,6 +101,7 @@ h1,h3{
 h3{
   font-size: xx-large;
 }
+
 
 
 .row1{
